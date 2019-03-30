@@ -42,6 +42,11 @@ nz = int(opt.nz)
 ngf = int(opt.ngf)
 ndf = int(opt.ndf)
 
+if (not os.path.exists(opt.dataroot)):
+    os.mkdir(opt.dataroot)
+if(not os.path.exists('./data/train_result')):
+    os.mkdir('./data/train_result')
+
 global learning_rate
 learning_rate = opt.lr
 
