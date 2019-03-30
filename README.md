@@ -7,6 +7,7 @@
 
 The basic model reference DCGAN in this paper:
 >https://arxiv.org/abs/1511.06434
+
 The basic realization refer this code:
 >https://github.com/znxlwm/pytorch-MNIST-CelebA-GAN-DCGAN/blob/master/pytorch_MNIST_DCGAN.py
 
